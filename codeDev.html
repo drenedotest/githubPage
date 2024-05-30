@@ -10,14 +10,7 @@
 </style>
 
 
-	<script type='text/javascript'>
-  window.onload = function() { // también puede usar window.addEventListener('load', (event) => {
-    alert('Página cargada');
-
-     embedded_svc.liveAgentAPI.startChat({
-		});
-  };
-</script>
+	
 
 
 <script type='text/javascript' src='https://service.force.com/embeddedservice/5.0/esw.min.js'></script>
@@ -75,6 +68,13 @@
 		});
 	}
 </script>
+<script type='text/javascript'>
+  window.onload = function() { // también puede usar window.addEventListener('load', (event) => {
+    alert('Página cargada');
 
+     embedded_svc.liveAgentAPI.startChat({
+		});
+  };
+</script>
 
 </html>
