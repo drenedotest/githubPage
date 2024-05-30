@@ -1,5 +1,4 @@
 <html>
-<input type="button" value="Conversar" onclick="startChat();"/>
 <style type='text/css'>
 	.embeddedServiceHelpButton .helpButton .uiButton {
 		background-color: #005290;
@@ -12,7 +11,8 @@
 
 <script>
   document.addEventListener("DOMContentLoaded", () => {
-    alert("DOM listo!");
+    embedded_svc.liveAgentAPI.startChat({
+		});
   });
 </script>
 
