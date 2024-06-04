@@ -8,7 +8,7 @@
 	}
 </style>
 
-<script type='text/javascript' src='https://conecta5--dev.sandbox.my.site.com/embeddedservice/5.0/esw.min.js'></script>
+<script type='text/javascript' src='https://service.force.com/embeddedservice/5.0/esw.min.js'></script>
 <script type='text/javascript'>
 	var initESW = function(gslbBaseURL) {
 		embedded_svc.settings.displayHelpButton = true; //Or false
@@ -51,7 +51,7 @@
 
 	if (!window.embedded_svc) {
 		var s = document.createElement('script');
-		s.setAttribute('src', 'https://conecta5--dev.sandbox.my.site.com/embeddedservice/5.0/esw.min.js');
+		s.setAttribute('src', 'https://conecta5--dev.sandbox.my.salesforce.com/embeddedservice/5.0/esw.min.js');
 		s.onload = function() {
 			initESW(null);
 		};
